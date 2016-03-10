@@ -1,0 +1,59 @@
+
+* {
+  box-sizing: border-box;
+  background: black;
+  color: white;
+}
+
+body {
+  font: 13px Helvetica, Arial;
+
+}
+#logo {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+}
+.menu{
+  margin-left: 15px;
+  border: 1px solid white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  margin-right: 8px;
+  position: fixed;
+  right: 0;
+  top: 15%;
+  color: white;
+}
+.secrets{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  position: fixed;
+  border: 1px solid white;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+
+}
+#copyright{
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 0;
+}
+.werbung{
+  left: 0;
+  position: fixed;
+  top: 15%;
+  color: white;
+  border: 1px dotted white;
+  margin-left: 8px;
+padding-right: 7%;
+padding-bottom: 35%;
+
+}
